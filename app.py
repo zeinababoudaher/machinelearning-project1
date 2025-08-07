@@ -43,7 +43,7 @@ if predict:
 
     x1=np.array([x])
     prediction=model.predict(x1)
-    st.write(f'predicted calories are: {prediction*314}')
+    st.write(f'predictedd calories are: {prediction*314}')
 
 else:
    "please press the button for app to make calories prediction"
